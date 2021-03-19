@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "clipboard-normalizer"
+version = "0.1.0"
+description = ""
+authors = ["Fumiya Kubota <fumiya.kubota@glucose.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^7.1.2"
+pyperclip = "^1.8.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+cn = "clipboard_normalizer.main:cmd"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
